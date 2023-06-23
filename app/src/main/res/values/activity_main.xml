@@ -11,8 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/launch_camera"
-        android:type="button"
-        android:onClick="launchCamera" />
+        android:onClick="launchCamera"
+        android:type="button" />
 
     <ImageView
         android:id="@+id/cameraImage"

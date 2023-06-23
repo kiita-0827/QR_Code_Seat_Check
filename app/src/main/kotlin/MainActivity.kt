@@ -3,6 +3,8 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var mCamera: Camera
+
     private fun safeCameraOpen(id: Int): Boolean {
         return try {
             releaseCameraAndPreview()
